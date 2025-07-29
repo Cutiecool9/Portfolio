@@ -1,0 +1,49 @@
+
+        body{
+            background-color: black;
+            color:white;
+            font-family: Arial;
+        }
+        .title{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .move-icon{
+             height: 50px;
+        }
+        .move-button{
+           
+            background-color: transparent;
+            border: 3px solid white;
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            cursor: pointer;
+        }
+        .Bresult{
+            font-size: 25px; 
+            font-weight: bold;
+            margin-top: 50px;
+        }
+        .score{
+            margin-top: 60px;
+
+        }
+        .reset-score-button{
+            background-color: white;
+            border:none;
+            font-size: 16px;
+            font-family: arial;
+            padding: 8px 10px;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: 1s;
+        }
+        .reset-score-button:hover{
+            color: white;
+            background-color: darkgoldenrod;
+            opacity: 0.8;
+        }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RPS</title>
+    
+</head>
+<body>
+    <h1 class="title">Rock Paper and Scissors</h1>
+
+
+    <BUTton class="move-button" onclick="
+        playGame('rock');
+        ">
+        <img src="images/rock-emoji.png" class="move-icon">
+    </BUTton>
+   
+    <BUTton class="move-button" onclick="
+        playGame('paper');
+        ">
+        <img src="images/paper-emoji.png" class="move-icon">
+    </BUTton>
+
+    <BUTton class="move-button" onclick="
+        playGame('scissors');
+        ">
+        <img src="images/scissors-emoji.png" class="move-icon">
+    </BUTton>
+
+    <p class="result"></p> 
+    <p class = "moves"></p>
+    <p class="js-tally score"></p>
+
+    <button onclick="
+    score.Win = 0;
+    score.Lose = 0;
+    score.Tie = 0;
+    
+    localStorage.removeItem('score');
+    updatedScore();
+    " class="reset-score-button">Reset Score</button>
+   
+
+   
+
+<script src="rps.js"></script>    
+</body>
+</html>
